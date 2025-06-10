@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1032004674679",
+    "project_id": "v-shape-gym",
+    "storage_bucket": "v-shape-gym.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032004674679:android:a6d3527333cee405095272",
+        "android_client_info": {
+          "package_name": "com.example.v_shape_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt31J4ig1ppQsgb9Vtf2a8L6W3kMyQuls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1032004674679:android:dd2a5d5dd54684d6095272",
+        "android_client_info": {
+          "package_name": "com.gym.vshapeufitness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt31J4ig1ppQsgb9Vtf2a8L6W3kMyQuls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

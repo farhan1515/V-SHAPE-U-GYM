@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "v-shape-gym",
+          "appId": "1:1032004674679:android:a6d3527333cee405095272",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "v-shape-gym",
+          "configurations": {
+            "android": "1:1032004674679:android:a6d3527333cee405095272",
+            "ios": "1:1032004674679:ios:4c100cbae51db689095272",
+            "macos": "1:1032004674679:ios:4c100cbae51db689095272",
+            "web": "1:1032004674679:web:acca9a3951771d3f095272",
+            "windows": "1:1032004674679:web:aec031acd0b3a89c095272"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
